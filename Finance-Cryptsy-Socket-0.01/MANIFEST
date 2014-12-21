@@ -1,0 +1,9 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+Cryptsy-Socket.readme
+TODO
+t/Cryptsy-Socket.t
+lib/Finance/Cryptsy/Socket.pm
+ex/simple_example.pl

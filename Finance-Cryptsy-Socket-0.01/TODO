@@ -1,0 +1,5 @@
+In no particular order:
+
+- add a sample script for updating a set of MySQL database tables.
+- verify this code will not die if/when unexpected data arrives.
+

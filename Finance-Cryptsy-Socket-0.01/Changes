@@ -1,0 +1,5 @@
+Revision history for Perl extension Finance::Cryptsy::Socket.
+
+0.01  Wed June 10 01:15:47 2014
+	- original version copied from Finance::BitStamp::Socket
+
