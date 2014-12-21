@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 WriteMakefile(
     NAME              => 'Finance::Cryptsy::Socket',
-    VERSION_FROM      => 'lib/Finance/Crypts/Socket.pm', # finds $VERSION
+    VERSION_FROM      => 'lib/Finance/Cryptsy/Socket.pm', # finds $VERSION
     PREREQ_PM         => {
         'AnyEvent::Socket'                       => 0,
         'AnyEvent::Handle'                       => 0,
