@@ -1,4 +1,4 @@
-perl-socket-bitstamp
+finance-cryptsy-socket
 ====================
 
 Perl module for Cryptsy socket connection.
