@@ -267,25 +267,25 @@ __END__
 
 =head1 NAME
 
-Cryptsy::Socket - Perl extension for connecting to the Cryptsy exchange
+Finance::Cryptsy::Socket - Perl extension for connecting to the Cryptsy exchange
 socket through the Pusher service.
 
 =head1 SYNOPSIS
 
   # this will dump the socket messages to the terminal...
 
-  use Cryptsy::Socket;
-  Cryptsy::Socket->new->go;
+  use Finance::Cryptsy::Socket;
+  Finance::Cryptsy::Socket->new->go;
 
   ... or just type this at the command prompt:
 
-  $ perl -e 'use base qw(Cryptsy::Socket); main->new->go'
+  $ perl -e 'use base qw(Finance::Cryptsy::Socket); main->new->go'
 
   =======================
   But instead do this:
   =======================
 
-  use base qw(Cryptsy::Socket);
+  use base qw(Finance::Cryptsy::Socket);
   main->new->go;
   
   sub order_book {
